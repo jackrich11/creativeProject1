@@ -1,56 +1,60 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.navbar, .nav-item, .nav-link, .navbar-brand, .footer {
+  background-color: #DF2935 !important;
+  color: #FFFFFB !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
   
-  .navbar, .nav-item, .nav-link, .navbar-brand, .footer {
-    background-color: #DF2935 !important;
-    color: #FFFFFB !important;
-    font-family: 'Times New Roman', Times, serif !important;
-    
-  }
-  
-  .active {
-    text-decoration: underline;
-  }
-  
-  .page {
-    width: 100%;
-  }
-  
-  .content {
-    width: 70%;
-    background-color: rgb(196, 194, 194);
-    margin: auto;
-  }
-  
-  .footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .github-link:link {
-    color: #A01821;
-  }
-  
-  .github-link:hover {
-    color: #F7CACD;
-  }
-  
-  .github-link:visited {
-    color: #EC838A;
-  }
-  
-  .dates {
-    list-style: none !important;
-  }
-  
-  .date {
-    list-style: none !important;
-    list-style-position: inside;
-  }
-  
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.page {
+  width: 100%;
+}
+
+.content {
+  width: 80%;
+  background-color: rgb(196, 194, 194);
+  margin: auto;
+  padding: 15px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github-link:link {
+  color: #A01821;
+}
+
+.github-link:hover {
+  color: #F7CACD;
+}
+
+.github-link:visited {
+  color: #EC838A;
+}
+
+.dates {
+  list-style: none !important;
+}
+
+.date {
+  list-style: none !important;
+  list-style-position: inside;
+}
+
+.title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+}
