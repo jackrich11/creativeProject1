@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css" />
+    
     <title>The Daily Double</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">The Daily Double</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,47 +22,45 @@
             <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/business.html">Business</a>
+            <a class="nav-link active" href="/pages/business.html">Business</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/poli.html">Politics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/pages/sports.html">Sports</a>
+            <a class="nav-link" href="/pages/sports.html">Sports</a>
           </li>
           </ul>
       </div>
-    <h1 class="title">Sports</h1>
-    <hr>
-    <ul>
-        <li class="date">September 22nd, 2021</li>
-          <ul>
-            <li class ="article"><a href='https://www.bbc.com/sport/football/58566906' target='_blank'>"West Ham knock out Man Utd"</a></li>
-            <li class ="article"><a href='https://www.bbc.com/sport/tennis/58656261' target='_blank'>"Andy Murray knocks out Vasek Pospisil en route to quarter-finals"</a></li>
-            </ul>
-    </ul>
-    <p>And here is a <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>gift.</a> </p>
     </nav>
     <div class="content">
-        <h1 class="title">Business</h1>
+        <h1 class="title">Sports</h1>
       <hr>
-      <ul>
-          <li class="date">September 22nd, 2021</li>
-            <ul>
-              <li class ="article"><a href='https://www.wsj.com/articles/hot-u-s-housing-market-cooled-some-in-august-11632319895?mod=hp_lead_pos4' target='_blank'>"Hot US Housing Market Cooled Some in August"</a></li>
-              <li class ="article"><a href='https://www.wsj.com/articles/facebook-says-apples-privacy-changes-hurt-digital-ad-measurement-11632341624?mod=hp_lista_pos2' target='_blank'>"Facebook Says Apple’s Privacy Changes Hurt Digital Ad Measurement"</a></li>
-            </ul>
-      </ul>
-      <p>And here is a <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>gift.</a> </p>
+
+      <div class="news-stories">
+        <h4 class="date">September 22nd, 2021</h4>
+        
+        <div class="single-news-story">
+          <a href='https://www.bbc.com/sport/football/58566906' target='_blank'>"West Ham knock out Man Utd"</a>
+          <img src="../images/s9221.jpeg" alt="WestHam">
+        </div>
+
+        <div class="single-news-story">
+          <a href='https://www.bbc.com/sport/tennis/58656261' target='_blank'>"Andy Murray knocks out Vasek Pospisil en route to quarter-finals"</a>
+          <img src="../images/s9222.jpeg" alt="Murray">
+        </div>
+
+      </div>
+
+
     </div>
+    
     <div class="footer">
       <p>Copyright The Daily Double News</p>
+      <p>TJ Barden & Jack Richardson</p>
       <a class="github-link" href="https://github.com">Github Repository</a>
     </div>
-
-
-
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
