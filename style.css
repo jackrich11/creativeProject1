@@ -25,7 +25,7 @@
 }
 
 .content {
-  width: 80%;
+  width: 50%;
   background-color: rgb(196, 194, 194);
   margin: auto;
   padding: 15px;
@@ -98,6 +98,6 @@ p {
 
 .quote {
   font-family: 'Courier New', Courier, monospace;
-  font-size: x-small;
+  font-size: medium;
   font-style: oblique;
 }
