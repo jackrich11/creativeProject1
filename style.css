@@ -8,7 +8,7 @@
 .navbar, .nav-item, .nav-link, .navbar-brand, .footer {
   background-color: #DF2935 !important;
   color: #FFFFFB !important;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+  font-family: optima  !important;
   
 }
 
@@ -38,6 +38,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.logo {
+  width: 5rem;
+  height: auto;
 }
 
 .github-link:link {
@@ -89,4 +94,10 @@ img {
 p {
   margin: 1px;
   padding: 1px;
+}
+
+.quote {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: oblique;
 }
